@@ -2,10 +2,6 @@
 
 ### Chief Executive and Technology Officer
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ayush931&label=Profile views&color=0e75b6&style=flat" alt="ayush931" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ayush931" alt="ayush931" /></a> </p>
-
 - 🔭 I'm currently working on **ShopU -> which is a quick online medicine delivery platform, ShipU -> logistics platform**
 
 - 🌱 I'm currently learning **Cloud computing and DevOps**
