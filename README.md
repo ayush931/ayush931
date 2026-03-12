@@ -1,6 +1,6 @@
 # Hi 👋, I'm Ayush Kumar
 
-### Chief Executive and Technology Officer
+### Software Engineer Intern
 
 - 🔭 I'm currently working on **ShopU -> which is a quick online medicine delivery platform, ShipU -> logistics platform**
 
