@@ -10,7 +10,7 @@
 
 - 📫 How to reach me **ayushkumar9315983@gmail.com**
 
-- 📄 Know about my experiences **[https://drive.google.com/file/d/1ZExF-ak5hqhspCr8j_iACo1nHo6bxluF/view?usp=sharing](https://drive.google.com/file/d/1ZExF-ak5hqhspCr8j_iACo1nHo6bxluF/view?usp=sharing)**
+- 📄 Know about my experiences **https://anotherayush.in**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
