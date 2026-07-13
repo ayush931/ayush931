@@ -1,95 +1,117 @@
-<h1 align="left">Hey 👋, I'm Ayush Kumar</h1>
-<h3 align="left">Full Stack Software Engineer — Patna, Bihar, India</h3>
+<div align="center">
+  <!-- Waving Header Banner -->
+  <img src="https://capsule-render.vercel.app/type=waving&color=gradient&customColorList=0,2,3,5,30&height=220&section=header&text=Ayush%20Kumar&fontSize=65&animation=twinkling&fontAlignY=45" alt="Ayush Kumar Banner" />
 
-<p align="left">
-  Full Stack Engineer with 1 year of experience in logistics and SaaS. Proficient in the MERN stack, Next.js, TypeScript, React Native, Node.js, PostgreSQL, and RabbitMQ. Built RESTful APIs and microservice architectures. An MBA background supports product thinking and Agile collaboration.
-</p>
+  <!-- Animated Typing Subtitle -->
+  <p align="center">
+    <a href="https://anotherayush.in">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=39D353&center=true&vCenter=true&width=600&lines=Full+Stack+Software+Engineer;Building+Scalable+Microservices;MBA-Backed+Product+Thinker" alt="Typing SVG" />
+    </a>
+  </p>
 
-- 🔭 Currently working at **NexoGrafix Private Limited** — building a full-stack document conversion platform (PDF → OCR → XML → EPUB pipeline)
-- 🌱 Deepening expertise in **FastAPI, Celery, Docker, and AWS**
-- 💬 Ask me about **React, Next.js, Node.js, PostgreSQL, microservices, and system design**
-- 📄 Portfolio: **[anotherayush.in](https://anotherayush.in)**
-- 📫 Reach me at **ayushkumar9315983@gmail.com**
-
----
-
-<h3 align="left">🔗 Connect with me</h3>
-<p align="left">
-  <a href="https://github.com/ayush931" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="ayush931" height="30" width="40" />
-  </a>
-  <a href="https://www.linkedin.com/in/ayush-kumar-94310522a/" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-  </a>
-</p>
-
----
-
-<h3 align="left">🛠️ Languages and Tools</h3>
-<p align="left">
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts" alt="typescript" width="40" height="40"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=js" alt="javascript" width="40" height="40"/></a>
-  <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/></a>
-  <a href="https://isocpp.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=cpp" alt="c++" width="40" height="40"/></a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=react" alt="react" width="40" height="40"/></a>
-  <a href="https://nextjs.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nextjs" alt="nextjs" width="40" height="40"/></a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=tailwind" alt="tailwind" width="40" height="40"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=html" alt="html5" width="40" height="40"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=css" alt="css3" width="40" height="40"/></a>
-  <a href="https://nodejs.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nodejs" alt="nodejs" width="40" height="40"/></a>
-  <a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=express" alt="express" width="40" height="40"/></a>
-  <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=fastapi" alt="fastapi" width="40" height="40"/></a>
-  <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=postgres" alt="postgresql" width="40" height="40"/></a>
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=mongodb" alt="mongodb" width="40" height="40"/></a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=mysql" alt="mysql" width="40" height="40"/></a>
-  <a href="https://redis.io/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=redis" alt="redis" width="40" height="40"/></a>
-  <a href="https://www.rabbitmq.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=rabbitmq" alt="rabbitmq" width="40" height="40"/></a>
-  <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=kafka" alt="kafka" width="40" height="40"/></a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=docker" alt="docker" width="40" height="40"/></a>
-  <a href="https://kubernetes.io/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=kubernetes" alt="kubernetes" width="40" height="40"/></a>
-  <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=aws" alt="aws" width="40" height="40"/></a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=git" alt="git" width="40" height="40"/></a>
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=figma" alt="figma" width="40" height="40"/></a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/></a>
-</p>
+  <!-- Social Links with Dynamic Badges -->
+  <p align="center">
+    <a href="https://www.linkedin.com/in/ayush-kumar-94310522a/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="mailto:ayushkumar9315983@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <a href="https://anotherayush.in" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    </a>
+  </p>
+</div>
 
 ---
 
-<h3 align="left">💼 Experience</h3>
+### 🚀 About Me
 
-**Junior Software Engineer — NexoGrafix Private Limited** *(Apr 2026 – Present)*
-- Built a Microsoft Word Add-in (Office.js + TypeScript) for automated document style enforcement — reduced manual effort by **60%**
-- Architected a full-stack document conversion platform (OCR → XML → EPUB) decomposed into independent FastAPI microservices
-- Implemented EPUB 3 generation with automated TOC, chapter splitting, CSS styling, and downloadable validation reports
+I am a **Full Stack Software Engineer** based in Patna, Bihar, with 1+ years of professional experience architecturalizing high-performance logistics platforms and SaaS applications. I bridge the gap between complex engineering and business objectives by combining a robust technical stack with an MBA foundation in product thinking.
 
-**Software Engineer Intern — ShipU Logistics Private Limited** *(Sept 2025 – Jan 2026)*
-- Built a logistics management platform (MERN + Next.js) with shipment tracking and RBAC; boosted backend performance by **25%** via optimised PostgreSQL queries
-- Implemented event-driven microservices with RabbitMQ; containerised with Docker and deployed on AWS
-- Organised codebase in Turborepo monorepo, reducing duplicated code by **35%**
-
-**Software Engineer Intern — Shabra Softech Solution Pvt. Ltd.** *(Feb 2025 – Jul 2025)*
-- Migrated a MERN monolith to Turborepo — **40% more code reuse**, **30% faster** feature delivery
-- Shipped Next.js and React Native apps serving **1,000+ monthly active users**
-- Implemented JWT + OAuth 2.0 + RBAC auth, cutting authentication issues by **50%**
+- 🔭 **Current Focus:** Engineering a high-throughput document conversion pipeline (**PDF → OCR → XML → EPUB**) at **NexoGrafix Private Limited**.
+- 🌱 **Deepening Expertise:** Scaling distributed systems using **FastAPI, Celery, Docker, and AWS**.
+- 💬 **Core Competencies:** System design, event-driven microservices, high-performance database indexing, and monorepo architectures.
 
 ---
 
-<h3 align="left">🚀 Projects</h3>
+### 🛠️ Tech Stack & Tooling
 
-**[Excalidraw Clone](https://github.com/ayush931)** — Real-Time Collaborative Whiteboard
-`Next.js` `WebSockets` `Turborepo` `PostgreSQL`
-- Multi-user real-time whiteboard with low-latency sync; reduced canvas load time by **40%** and re-renders by **60%**
-
-**[RideSync](https://github.com/ayush931)** — Real-Time Ride Booking App
-`React Native (Expo)` `Clerk` `Neon PostgreSQL` `Zustand` `WebSockets`
-- Full-stack ride-hailing app with real-time GPS tracking; achieved DB response times **under 200 ms**; optimised bundle size by **15%**
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="33%">
+      <strong>Frontend & Mobile</strong>
+    </td>
+    <td align="center" width="33%">
+      <strong>Backend & Databases</strong>
+    </td>
+    <td align="center" width="33%">
+      <strong>DevOps & Architecture</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css,figma&perline=4" alt="Frontend" /></a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,py,cpp,postgres,mongodb,mysql,redis&perline=4" alt="Backend" /></a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=rabbitmq,kafka,docker,kubernetes,aws,git,linux&perline=4" alt="DevOps" /></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-<h3 align="left">📊 GitHub Stats</h3>
+### 💼 Professional Experience
 
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ayush931&show_icons=true&locale=en&layout=compact&hide_border=true" alt="ayush931" />
-</p>
+#### **Junior Software Engineer** — *NexoGrafix Private Limited* `Apr 2026 – Present`
+- **Office.js Automation:** Designed and deployed a Microsoft Word Add-in using Office.js + TypeScript for strict style enforcement, cutting manual editing workflows by **60%**.
+- **Distributed Pipelines:** Structured a resilient document conversion architecture split into independent FastAPI microservices.
+- **E-Pub Generation:** Implemented a standard-compliant EPUB 3 generation engine featuring automated TOC compilation, structural splitting, custom CSS bindings, and deep validation reports.
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ayush931&show_icons=true&locale=en&hide_border=true&count_private=true" alt="ayush931" /></p>
+#### **Software Engineer Intern** — *ShipU Logistics Private Limited* `Sep 2025 – Jan 2026`
+- **Performance Optimization:** Developed a MERN + Next.js logistics engine with RBAC safety profiles; slashed API response latency by **25%** using optimized PostgreSQL query indices.
+- **Event-Driven Microservices:** Spearheaded message orchestration using RabbitMQ, containerized runtime environments with Docker, and handled deployments onto AWS environments.
+- **Monorepo Architecture:** Migrated segmented application packages into a unified Turborepo configuration, driving down code duplication rates by **35%**.
+
+#### **Software Engineer Intern** — *Shabra Softech Solution Pvt. Ltd.* `Feb 2025 – Jul 2025`
+- **Monolith Migration:** Decomposed a legacy MERN application architecture into a Turborepo monorepo, accelerating feature velocity by **30%** and maximizing code reuse by **40%**.
+- **Cross-Platform Deployments:** Engineered and supported production web (Next.js) and mobile (React Native) environments supporting **1,000+ Monthly Active Users**.
+- **Secure Authentication:** Integrated JWT + OAuth 2.0 with granular Role-Based Access Controls, minimizing auth failure rates by **50%**.
+
+---
+
+### 💡 Highlighted Open Source Projects
+
+#### 🎨 [Excalidraw Clone](https://github.com/ayush931) — Real-Time Collaborative Whiteboard
+`Next.js` · `WebSockets` · `Turborepo` · `PostgreSQL`
+- Built a multi-tenant canvas environment with low-latency state sync via WebSockets.
+- Mitigated virtual canvas load times by **40%** and minimized redundant component re-renders by **60%** via granular component memoization.
+
+#### 🚗 [RideSync](https://github.com/ayush931) — Real-Time Ride Booking App
+`React Native (Expo)` · `Clerk` · `Neon PostgreSQL` · `Zustand` · `WebSockets`
+- Developed a full-stack ride-hailing native application displaying real-time vehicle GPS tracking updates.
+- Maintained database layer responses **under 200 ms** under peak load conditions while optimizing asset bundle footprints by **15%**.
+
+---
+
+### 📊 Github Metrics & Analytics
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center" valign="top">
+        <img src="https://github-readme-stats.vercel.app/api?username=ayush931&show_icons=true&locale=en&theme=tokyonight&count_private=true&hide_border=true" alt="Ayush's GitHub Stats" height="190px" />
+      </td>
+      <td align="center" valign="top">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ayush931&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true" alt="Ayush's Top Languages" height="190px" />
+      </td>
+    </tr>
+  </table>
+  
+  <!-- Dynamic Contribution Snake Animation -->
+  <br/>
+  <img src="https://raw.githubusercontent.com/ayush931/ayush931/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%" />
+</div>
