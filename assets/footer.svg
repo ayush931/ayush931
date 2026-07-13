@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="100%" height="100%">
   <defs>
-    <!-- Fonts -->
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&amp;display=swap');
 
@@ -11,7 +10,6 @@
         fill: #ffffff;
         letter-spacing: 0.5px;
       }
-
       .footer-subtitle {
         font-family: 'Outfit', -apple-system, sans-serif;
         font-weight: 500;
@@ -20,46 +18,27 @@
         letter-spacing: 1.5px;
       }
 
-      /* Animations */
       @keyframes pulse-slow {
         0%, 100% { opacity: 0.2; transform: scale(1); }
         50% { opacity: 0.35; transform: scale(1.05); }
       }
-
-      @keyframes float-panel {
-        0%, 100% { transform: translateY(20px); }
-        50% { transform: translateY(12px); }
+      @keyframes float-subtle {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-3px); }
       }
-
       @keyframes float-particle {
         0%, 100% { transform: translateY(0px) translateX(0px); }
         50% { transform: translateY(-5px) translateX(2px); }
       }
-
       @keyframes draw-infinite {
         0% { stroke-dashoffset: 600; }
         100% { stroke-dashoffset: 0; }
       }
 
-      .bg-glow {
-        animation: pulse-slow 8s ease-in-out infinite;
-        transform-origin: 600px 60px;
-      }
-
-      .floating-glass {
-        animation: float-panel 5s ease-in-out infinite;
-        transform-origin: 240px 45px;
-      }
-
-      .f-particle {
-        animation: float-particle 6s ease-in-out infinite;
-      }
-
-      .animated-dash {
-        stroke-dasharray: 150 150;
-        stroke-dashoffset: 600;
-        animation: draw-infinite 12s linear infinite;
-      }
+      .bg-glow   { animation: pulse-slow 8s ease-in-out infinite; transform-origin: 600px 60px; }
+      .glass-box  { animation: float-subtle 5s ease-in-out infinite; transform-origin: 600px 60px; }
+      .f-particle { animation: float-particle 6s ease-in-out infinite; }
+      .animated-dash { stroke-dasharray: 150 150; stroke-dashoffset: 600; animation: draw-infinite 12s linear infinite; }
     </style>
 
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -67,88 +46,74 @@
       <stop offset="50%" stop-color="#090914" />
       <stop offset="100%" stop-color="#020205" />
     </linearGradient>
-
     <radialGradient id="mid-glow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ff007f" stop-opacity="0.22" />
       <stop offset="100%" stop-color="#ff007f" stop-opacity="0" />
     </radialGradient>
-
-    <!-- Glassmorphism Panel Fill -->
     <linearGradient id="glass-fill" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06" />
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07" />
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
     </linearGradient>
-
-    <!-- Glassmorphism Border Gradient -->
     <linearGradient id="glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18" />
       <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.04" />
       <stop offset="100%" stop-color="#ff007f" stop-opacity="0.1" />
     </linearGradient>
-
     <linearGradient id="border-neon" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#090914" />
       <stop offset="50%" stop-color="#ff007f" stop-opacity="0.8" />
       <stop offset="100%" stop-color="#090914" />
     </linearGradient>
-
     <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ff007f" />
       <stop offset="100%" stop-color="#00f0ff" />
     </linearGradient>
 
-    <!-- Filters -->
-    <filter id="blur-filter">
-      <feGaussianBlur stdDeviation="20" />
-    </filter>
-
+    <filter id="blur-filter"><feGaussianBlur stdDeviation="20" /></filter>
     <filter id="glass-shadow" x="-10%" y="-20%" width="120%" height="150%">
-      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.55"/>
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#000000" flood-opacity="0.5"/>
     </filter>
   </defs>
 
-  <!-- Background Base -->
+  <!-- Background -->
   <rect width="100%" height="100%" fill="url(#bg-grad)" />
 
-  <!-- Ambient Glow Center -->
+  <!-- Ambient Glow -->
   <circle class="bg-glow" cx="600" cy="60" r="140" fill="url(#mid-glow)" filter="url(#blur-filter)" />
 
-  <!-- Glowing Border Accent (Top & Bottom) -->
-  <rect x="0" y="0" width="1200" height="3" fill="url(#border-neon)" />
+  <!-- Neon Edge Borders -->
+  <rect x="0" y="0"   width="1200" height="3" fill="url(#border-neon)" />
   <rect x="0" y="117" width="1200" height="3" fill="url(#border-neon)" />
 
-  <!-- Tech Grid Background lines -->
+  <!-- Tech Grid -->
   <g opacity="0.04" stroke="#ffffff" stroke-width="0.75">
     <path d="M 0,30 L 1200,30 M 0,60 L 1200,60 M 0,90 L 1200,90" />
     <path d="M 150,0 L 150,120 M 300,0 L 300,120 M 450,0 L 450,120 M 600,0 L 600,120 M 750,0 L 750,120 M 900,0 L 900,120 M 1050,0 L 1050,120" />
   </g>
 
-  <!-- Flowing Tech Lines (Dashed glow) -->
-  <path class="animated-dash" d="M 80,60 L 320,60" fill="none" stroke="url(#text-grad)" stroke-width="1.2" opacity="0.25" />
+  <!-- Dashed Glow Lines -->
+  <path class="animated-dash" d="M 80,60 L 320,60"   fill="none" stroke="url(#text-grad)" stroke-width="1.2" opacity="0.25" />
   <path class="animated-dash" d="M 1120,60 L 880,60" fill="none" stroke="url(#text-grad)" stroke-width="1.2" opacity="0.25" style="animation-delay: -6s;" />
 
-  <!-- Floating Particles -->
-  <circle class="f-particle" cx="180" cy="40" r="2" fill="#ff007f" opacity="0.4" style="animation-delay: 0s;" />
+  <!-- Particles -->
+  <circle class="f-particle" cx="180"  cy="40" r="2"   fill="#ff007f" opacity="0.4" />
   <circle class="f-particle" cx="1020" cy="80" r="1.5" fill="#00f0ff" opacity="0.5" style="animation-delay: -3s;" />
 
-  <!-- Centered Glassmorphism Panel -->
-  <g class="floating-glass" transform="translate(360, 0)" filter="url(#glass-shadow)">
-    <!-- Glass Background -->
-    <rect x="0" y="0" width="480" height="80" rx="14" fill="url(#glass-fill)" stroke="url(#glass-border)" stroke-width="1.5" style="backdrop-filter: blur(20px);" />
-    <!-- Glass Highlight -->
-    <rect x="2" y="2" width="476" height="76" rx="12" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.1" />
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!--  GLASS PANEL — 480×80, centered in 1200×120        -->
+  <!--  x = (1200 - 480) / 2 = 360                        -->
+  <!--  y = (120 - 80) / 2   = 20                         -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <g class="glass-box" transform="translate(360, 20)" filter="url(#glass-shadow)">
+    <rect x="0" y="0" width="480" height="80" rx="14" fill="url(#glass-fill)" stroke="url(#glass-border)" stroke-width="1.5" />
+    <rect x="2" y="2" width="476" height="76" rx="12" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.08" />
 
-    <!-- Center Content -->
-    <g transform="translate(240, 36)" text-anchor="middle">
-      <!-- Title -->
-      <text class="footer-title" x="0" y="0">
-        Thanks for stopping by <tspan fill="url(#text-grad)">🚀</tspan>
-      </text>
-      <!-- Subtitle -->
-      <text class="footer-subtitle" x="0" y="24">
-        DESIGNED &amp; CRAFTED BY AYUSH • © 2026
-      </text>
-    </g>
+    <!-- Text content — centered at (240, 40) = exact middle of 480×80 -->
+    <text class="footer-title" x="240" y="33" text-anchor="middle">
+      Thanks for stopping by <tspan fill="url(#text-grad)">🚀</tspan>
+    </text>
+    <text class="footer-subtitle" x="240" y="57" text-anchor="middle">
+      DESIGNED &amp; CRAFTED BY AYUSH • © 2026
+    </text>
   </g>
-
 </svg>
