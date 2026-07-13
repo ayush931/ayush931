@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&amp;family=Fira+Code:wght@400;500&amp;display=swap');
+      
+      .title {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 800;
+        font-size: 48px;
+        fill: #ffffff;
+      }
+      
+      .subtitle {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        fill: #cbd5e1;
+      }
+
+      .terminal-text {
+        font-family: 'Fira Code', monospace;
+        font-size: 13px;
+        fill: #00f0ff;
+      }
+
+      .tag-text {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        fill: #ff007f;
+      }
+
+      /* Animations */
+      @keyframes pulse {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.55; transform: scale(1.06); }
+      }
+
+      @keyframes float-dashboard {
+        0%, 100% { transform: translateY(30px) rotate(0deg); }
+        50% { transform: translateY(20px) rotate(0.5deg); }
+      }
+
+      @keyframes float-particle {
+        0%, 100% { transform: translateY(0px) translateX(0px); }
+        50% { transform: translateY(-8px) translateX(4px); }
+      }
+
+      @keyframes wave {
+        0%, 100% { transform: rotate(0deg); }
+        20% { transform: rotate(15deg); }
+        40% { transform: rotate(-10deg); }
+        60% { transform: rotate(14deg); }
+        80% { transform: rotate(-4deg); }
+      }
+
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+
+      @keyframes draw-line {
+        0% { stroke-dashoffset: 1000; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      @keyframes glow-pulse {
+        0%, 100% { filter: drop-shadow(0 0 2px rgba(255, 0, 127, 0.4)); }
+        50% { filter: drop-shadow(0 0 8px rgba(255, 0, 127, 0.7)); }
+      }
+
+      /* Classes */
+      .bg-glow-1 {
+        animation: pulse 8s ease-in-out infinite;
+        transform-origin: 200px 160px;
+      }
+      .bg-glow-2 {
+        animation: pulse 10s ease-in-out infinite alternate;
+        transform-origin: 1000px 160px;
+      }
+      .waving-hand {
+        animation: wave 2.5s ease-in-out infinite;
+        transform-origin: 300px -10px;
+      }
+      .dashboard-panel {
+        animation: float-dashboard 6s ease-in-out infinite;
+        transform-origin: 530px 120px;
+      }
+      .particle {
+        animation: float-particle 7s ease-in-out infinite;
+      }
+      .cursor {
+        animation: blink 1s infinite;
+      }
+      .neon-path {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: draw-line 8s linear infinite;
+      }
+      .glowing-badge {
+        animation: glow-pulse 3s infinite;
+      }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05050f" />
+      <stop offset="50%" stop-color="#090914" />
+      <stop offset="100%" stop-color="#020205" />
+    </linearGradient>
+
+    <radialGradient id="glow-pink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff007f" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#ff007f" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f" />
+      <stop offset="50%" stop-color="#d946ef" />
+      <stop offset="100%" stop-color="#00f0ff" />
+    </linearGradient>
+
+    <!-- Glassmorphism Fill -->
+    <linearGradient id="glass-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Glassmorphism Border -->
+    <linearGradient id="glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22" />
+      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ff007f" stop-opacity="0.18" />
+    </linearGradient>
+
+    <linearGradient id="border-neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090914" />
+      <stop offset="50%" stop-color="#ff007f" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#090914" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="blur-filter">
+      <feGaussianBlur stdDeviation="30" />
+    </filter>
+    
+    <filter id="glass-shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle class="bg-glow-1" cx="200" cy="160" r="220" fill="url(#glow-pink)" filter="url(#blur-filter)" />
+  <circle class="bg-glow-2" cx="1000" cy="160" r="240" fill="url(#glow-cyan)" filter="url(#blur-filter)" />
+
+  <!-- Abstract Tech Grid Lines -->
+  <g opacity="0.05" stroke="#ffffff" stroke-width="0.75">
+    <path d="M 0,40 L 1200,40 M 0,80 L 1200,80 M 0,120 L 1200,120 M 0,160 L 1200,160 M 0,200 L 1200,200 M 0,240 L 1200,240 M 0,280 L 1200,280" />
+    <path d="M 100,0 L 100,320 M 200,0 L 200,320 M 300,0 L 300,320 M 400,0 L 400,320 M 500,0 L 500,320 M 600,0 L 600,320 M 700,0 L 700,320 M 800,0 L 800,320 M 900,0 L 900,320 M 1000,0 L 1000,320 M 1100,0 L 1100,320" />
+  </g>
+
+  <!-- Glowing Laser Vectors -->
+  <path class="neon-path" d="M -100,80 L 400,80 L 500,180 L 1300,180" fill="none" stroke="#ff007f" stroke-width="1.2" opacity="0.25" />
+  <path class="neon-path" d="M 1300,90 L 800,90 L 700,190 L -100,190" fill="none" stroke="#00f0ff" stroke-width="1.2" opacity="0.2" style="animation-delay: -4s;" />
+
+  <!-- Particles -->
+  <circle class="particle" cx="150" cy="70" r="2" fill="#ff007f" opacity="0.5" />
+  <circle class="particle" cx="1050" cy="250" r="2.5" fill="#00f0ff" opacity="0.5" style="animation-delay: -3s;" />
+
+  <!-- Glowing Neon Borders -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#border-neon)" />
+  <rect x="0" y="316" width="1200" height="4" fill="url(#border-neon)" />
+
+  <!-- MAIN UNIFIED CONSOLE DASHBOARD -->
+  <g class="dashboard-panel" transform="translate(70, 0)" filter="url(#glass-shadow)">
+    <!-- Glass Panel Background -->
+    <rect x="0" y="0" width="1060" height="240" rx="16" fill="url(#glass-fill)" stroke="url(#glass-border)" stroke-width="1.5" style="backdrop-filter: blur(20px);" />
+    <rect x="2" y="2" width="1056" height="236" rx="14" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.1" />
+
+    <!-- LEFT SECTION: Interactive Terminal Console -->
+    <g transform="translate(25, 20)">
+      <!-- Mini terminal border -->
+      <rect x="0" y="0" width="310" height="200" rx="10" fill="#030307" fill-opacity="0.75" stroke="url(#glass-border)" stroke-width="1" />
+      
+      <!-- Window Controls -->
+      <circle cx="16" cy="14" r="4.5" fill="#ef4444" opacity="0.8" />
+      <circle cx="28" cy="14" r="4.5" fill="#eab308" opacity="0.8" />
+      <circle cx="40" cy="14" r="4.5" fill="#22c55e" opacity="0.8" />
+      <text x="294" y="17" font-family="'Outfit', sans-serif" font-size="10.5" font-weight="600" fill="#64748b" text-anchor="end">terminal</text>
+      
+      <line x1="0" y1="28" x2="310" y2="28" stroke="url(#glass-border)" stroke-width="0.75" />
+
+      <!-- Terminal content -->
+      <g transform="translate(15, 45)">
+        <text class="terminal-text" x="0" y="15" fill="#64748b">guest@ayush-dev:~$ <tspan fill="#ff007f">whoami</tspan></text>
+        <text class="terminal-text" x="0" y="34" fill="#f8fafc">ayushkumar</text>
+        
+        <text class="terminal-text" x="0" y="60" fill="#64748b">guest@ayush-dev:~$ <tspan fill="#00f0ff">cat edu.json</tspan></text>
+        <text class="terminal-text" x="0" y="80" fill="#00f0ff">{</text>
+        <!-- EDUCATION PROMINENTLY SHOWN -->
+        <text class="terminal-text" x="15" y="98" fill="#e2e8f0">"degree": <tspan fill="#d946ef">"MCA"</tspan>,</text>
+        <text class="terminal-text" x="15" y="116" fill="#e2e8f0">"college": <tspan fill="#ff007f">"IIT Patna &amp;"</tspan>,</text>
+        <text class="terminal-text" x="15" y="134" fill="#ff007f">"IIIT Ranchi"</text>
+        <text class="terminal-text" x="0" y="152" fill="#00f0ff">}</text>
+        <text class="terminal-text" x="15" y="152" fill="#94a3b8"><tspan class="cursor" fill="#00f0ff">█</tspan></text>
+      </g>
+    </g>
+
+    <!-- Vertical Glowing Glass Divider -->
+    <line x1="365" y1="20" x2="365" y2="220" stroke="url(#glass-border)" stroke-width="1.5" />
+
+    <!-- RIGHT SECTION: Profile HUD -->
+    <g transform="translate(395, 25)">
+      <!-- Glowing Badge -->
+      <g class="glowing-badge" transform="translate(0, 0)">
+        <rect x="0" y="0" width="135" height="24" rx="12" fill="#ff007f" fill-opacity="0.2" stroke="#ff007f" stroke-width="1.2" />
+        <circle cx="14" cy="12" r="4" fill="#ff007f" />
+        <text x="26" y="15" font-family="'Outfit', sans-serif" font-weight="700" font-size="10" fill="#fbcfe8" letter-spacing="0.5px">AVAILABLE FOR WORK</text>
+      </g>
+
+      <!-- Main Header Name -->
+      <g transform="translate(0, 56)">
+        <text class="title" x="0" y="0">Hey, I'm <tspan fill="url(#text-grad)">Ayush</tspan></text>
+        <!-- Waving Hand -->
+        <g class="waving-hand">
+          <text x="235" y="-3" font-size="42">👋</text>
+        </g>
+      </g>
+
+      <!-- Subtitle Description -->
+      <text class="subtitle" x="0" y="94">
+        Full Stack Engineer crafting high-performance backend systems,
+      </text>
+      <text class="subtitle" x="0" y="118">
+        distributed pipelines, and real-time multiplayer networks.
+      </text>
+
+      <!-- Tech tags -->
+      <g transform="translate(0, 142)">
+        <rect x="0" y="0" width="70" height="22" rx="11" fill="#1e293b" fill-opacity="0.6" stroke="#475569" stroke-width="1" />
+        <text class="tag-text" x="35" y="15" text-anchor="middle">FastAPI</text>
+        
+        <rect x="78" y="0" width="68" height="22" rx="11" fill="#1e293b" fill-opacity="0.6" stroke="#475569" stroke-width="1" />
+        <text class="tag-text" x="112" y="15" text-anchor="middle" fill="#00f0ff">NodeJS</text>
+        
+        <rect x="154" y="0" width="80" height="22" rx="11" fill="#1e293b" fill-opacity="0.6" stroke="#475569" stroke-width="1" />
+        <text class="tag-text" x="194" y="15" text-anchor="middle" fill="#d946ef">WebSockets</text>
+
+        <rect x="242" y="0" width="82" height="22" rx="11" fill="#1e293b" fill-opacity="0.6" stroke="#475569" stroke-width="1" />
+        <text class="tag-text" x="283" y="15" text-anchor="middle" fill="#fbbf24">PostgreSQL</text>
+
+        <rect x="332" y="0" width="64" height="22" rx="11" fill="#1e293b" fill-opacity="0.6" stroke="#475569" stroke-width="1" />
+        <text class="tag-text" x="364" y="15" text-anchor="middle" fill="#00f0ff">Docker</text>
+      </g>
+    </g>
+  </g>
+</svg>
