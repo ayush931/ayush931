@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://anotherayush.in">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=39D353&center=true&vCenter=true&width=750&lines=Building+DocStream+%E2%80%94+PDF+%E2%86%92+OCR+%E2%86%92+XML+%E2%86%92+EPUB;Real-Time+Systems+%7C+Distributed+Microservices;MCA+%40+IIT+Patna+%2B+IIIT+Ranchi;Engineer+first.+Product+thinker+second.+Always+curious." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=39D353&center=true&vCenter=true&width=750&height=60&lines=Building+DocStream+%E2%80%94+PDF+%E2%86%92+OCR+%E2%86%92+XML+%E2%86%92+EPUB;Real-Time+Systems+%7C+Distributed+Microservices;MCA+%40+IIT+Patna+%2B+IIIT+Ranchi;Engineer+first.+Product+thinker+second.+Always+curious." alt="Typing SVG" width="750" height="60" />
 </a>
 
 <br/><br/>
@@ -54,8 +54,8 @@ const ayush = {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ayush931&show_icons=true&locale=en&count_private=true&theme=tokyonight&hide_border=true&border_radius=12&card_width=430" alt="Ayush's GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayush931&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&card_width=320" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=ayush931&show_icons=true&locale=en&count_private=true&theme=tokyonight&hide_border=true&border_radius=12&card_width=430&cache_seconds=1800" alt="Ayush's GitHub Stats" height="195" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayush931&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&card_width=320&cache_seconds=1800" alt="Top Languages" height="195" />
 
 <br/>
 
@@ -63,7 +63,7 @@ const ayush = {
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=ayush931&theme=tokyonight&no-bg=true&margin-w=6&margin-h=6&column=7" alt="GitHub Trophies" width="100%" />
+<img src="https://github-profile-trophy.vercel.app/?username=ayush931&theme=tokyonight&no-bg=true&margin-w=6&margin-h=6&column=7" alt="GitHub Trophies" width="100%" height="220" />
 
 <br/><br/>
 
